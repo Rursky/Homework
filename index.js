@@ -87,3 +87,42 @@ function animals(kurczak, krowa, swinia){
     return(kurczak * 2 + krowa * 4 + swinia * 4)
 }
 alert(animals(13, 3, 5))
+
+//Zadanie 7.
+
+function silnia(n)
+{
+    let number7=1;
+    for (let i = 2; i <= n; i++)
+        number7 = number7 * i;
+    return number7;
+}
+
+alert(silnia(6))
+
+// Zadanie 8.
+
+// Zadanie 9.
+
+function phLevel() {
+    let number5 = prompt("Podaj poziom PH 0-14", "0");
+    let number6 = parseInt(number5);
+    let answer;
+    switch (true) {
+        case (number6 >= 0 && number6 <= 6):
+            answer = "Kwaśna"
+            break;
+        case (number6 >= 8 && number6 <= 14):
+            answer = "Zasadowa"
+            break;
+        case (number6 == 7):
+            answer = "Obojętna"
+            break;
+        case (number6 <0 || number6 > 14):
+            answer = "Poza zakresem"
+            break;
+    }
+    return answer
+}
+
+alert(phLevel())
