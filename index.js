@@ -45,20 +45,20 @@ alert(TellNumber3())
 //Zadanie 3.
 
 function TellNumber4 () {
-    let number4 = prompt("Podaj jakis numer:", "1");
-    parseInt(number4, 10) // przekonwertowałem na dzisietny, ale niewiele to zmienia dalej w "switch()"" tj. ze string byłoby tak samo - czy o to chodziło?
+    let numberIn = prompt("Podaj jakis numer:", "1");
+    let number4 = parseInt(numberIn)
     let answer;
     switch (number4) {
-        case '1':
+        case 1:
             answer = "Zdałeś egzamin"
             break;
-        case '2':
+        case 2:
             answer = "Zaliczona tylko teoria"
             break;
-        case '3':
+        case 3:
             answer = "Zaliczona tylko praktyka"
             break;
-        case '4':
+        case 4:
             answer = "Egzamin do poprawy"
             break;
     }
