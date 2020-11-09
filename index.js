@@ -118,7 +118,7 @@ function phLevel() {
         case (number6 == 7):
             answer = "Obojętna"
             break;
-        case (number6 <0 || number6 > 14):
+        default:
             answer = "Poza zakresem"
             break;
     }
