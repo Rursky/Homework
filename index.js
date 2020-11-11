@@ -90,7 +90,7 @@ alert(animals(13, 3, 5))
 
 //Zadanie 7.
 
-function silnia(n)
+function factorial(n)
 {
     let number7=1;
     for (let i = 2; i <= n; i++)
@@ -98,9 +98,16 @@ function silnia(n)
     return number7;
 }
 
-alert(silnia(6))
+alert(factorial(6))
 
 // Zadanie 8.
+
+function inkLevels({magneta, cyan, yellow}) {
+    numberMin = Math.min(cyan, magneta, yellow)
+    return numberMin
+}
+
+console.log(inkLevels({"cyan" : 11, "magneta" : 12, "yellow" : 10}))
 
 // Zadanie 9.
 
