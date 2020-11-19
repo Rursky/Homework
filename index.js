@@ -138,7 +138,7 @@ alert(phLevel())
 
 //// ZJAZD 2. ////
 
-// Zadanie 1.
+// Zadanie 1. - operuje tylko na z góry założonej liczbie elementów tablicy (w tym przypadku 3)
 
 const cubeNumbers = [4,5,6]
 
@@ -149,7 +149,7 @@ function cubenum(cube) {
 
 console.log(cubenum(cubeNumbers))
 
-// Zadanie 2.
+// Zadanie 1. - operuje na dowolnej liczbie elementów tablicy (w tym przypadku 3)
 
 const cubeNumbers = [2,100,5]
 let a = 0
