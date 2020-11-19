@@ -142,47 +142,47 @@ alert(phLevel())
 
 // const cubeNumbers = [4,5,6]
 
-// function cubenum(cube) {
+// function sumOfCubes1(cube) {
 //     cubesum = Math.pow(cube[0], 3) + Math.pow(cube[1], 3) + Math.pow(cube[2], 3);
 //     return(cubesum)
 // }
 
-// console.log(cubenum(cubeNumbers))
+// console.log(sumOfCubes1(cubeNumbers))
 
 // Zadanie 1. - operuje na dowolnej liczbie elementów tablicy (w tym przypadku 3)
 
 const cubeNumbers = [2,100,5]
 let a = 0
-function cubeNum1(cube){
+function sumOfCubes(cube){
     for (let i=0; i<cube.length; i++){
         a = a + Math.pow(cube[i], 3)
     }
     return a
 }
 
-console.log(cubeNum1(cubeNumbers))
+console.log(sumOfCubes(cubeNumbers))
 
 // Zadanie 2.
 
-const SocietyNames = ["Natalia", "Iwona", "Celina", "Ewelina"]
+const societyNames = ["Natalia", "Iwona", "Celina", "Ewelina"]
 const tab1 = []
-function firstLetter(names) {
+function societyName(names) {
     for (let i=0; i<names.length; i++){
         tab1.push(names[i][0])
     }
     return tab1.sort()
 }
 
-console.log(firstLetter(SocietyNames))
+console.log(societyName(societyNames))
 
 // Zadanie 3.
 
 const numbersTab = [-1,2,3,4,-10,5,6,7,80,9]
 const tab2 = []
-function minMaxTabNum(numTab){
+function minMax(numTab){
     tab2.push(Math.min(...numTab))
     tab2.push(Math.max(...numTab))
     return tab2
     
 }
-console.log(minMaxTabNum(numbersTab))
+console.log(minMax(numbersTab))
