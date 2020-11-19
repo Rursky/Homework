@@ -138,16 +138,16 @@ alert(phLevel())
 
 //// ZJAZD 2. ////
 
-// Zadanie 1. - operuje tylko na z góry założonej liczbie elementów tablicy (w tym przypadku 3)
+// // Zadanie 1. - operuje tylko na z góry założonej liczbie elementów tablicy (w tym przypadku 3)
 
-const cubeNumbers = [4,5,6]
+// const cubeNumbers = [4,5,6]
 
-function cubenum(cube) {
-    cubesum = Math.pow(cube[0], 3) + Math.pow(cube[1], 3) + Math.pow(cube[2], 3);
-    return(cubesum)
-}
+// function cubenum(cube) {
+//     cubesum = Math.pow(cube[0], 3) + Math.pow(cube[1], 3) + Math.pow(cube[2], 3);
+//     return(cubesum)
+// }
 
-console.log(cubenum(cubeNumbers))
+// console.log(cubenum(cubeNumbers))
 
 // Zadanie 1. - operuje na dowolnej liczbie elementów tablicy (w tym przypadku 3)
 
@@ -174,3 +174,15 @@ function firstLetter(names) {
 }
 
 console.log(firstLetter(SocietyNames))
+
+// Zadanie 3.
+
+const numbersTab = [-1,2,3,4,-10,5,6,7,80,9]
+const tab2 = []
+function minMaxTabNum(numTab){
+    tab2.push(Math.min(...numTab))
+    tab2.push(Math.max(...numTab))
+    return tab2
+    
+}
+console.log(minMaxTabNum(numbersTab))
