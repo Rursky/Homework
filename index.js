@@ -148,3 +148,15 @@ function cubenum(cube) {
 }
 
 console.log(cubenum(cubeNumbers))
+
+// Zadanie 2.
+
+const cubeNumbers = [2,100,5]
+let a = 0
+function cubeNum1(cube){
+    for (let i=0; i<cube.length; i++){
+        a = a + Math.pow(cube[i], 3)
+    }
+    return a
+}
+console.log(cubeNum1(cubeNumbers))
