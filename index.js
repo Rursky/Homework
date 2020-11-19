@@ -159,4 +159,18 @@ function cubeNum1(cube){
     }
     return a
 }
+
 console.log(cubeNum1(cubeNumbers))
+
+// Zadanie 2.
+
+const SocietyNames = ["Natalia", "Iwona", "Celina", "Ewelina"]
+const tab1 = []
+function firstLetter(names) {
+    for (let i=0; i<names.length; i++){
+        tab1.push(names[i][0])
+    }
+    return tab1.sort()
+}
+
+console.log(firstLetter(SocietyNames))
