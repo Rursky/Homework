@@ -1,4 +1,6 @@
-//Zadanie 1
+//// ZJAZD 1. ////
+
+// Zadanie 1
 
 function TellNumber () {
     let number1 = prompt("Podaj jakis numer:", "1");
@@ -12,7 +14,7 @@ return answer
 
 alert(TellNumber())
 
-//Zadanie 2 (możliwość 1)
+// Zadanie 2 (możliwość 1)
 
 function TellNumber1 () {
     let number2 = prompt("Podaj jakis numer:", "1");
@@ -28,7 +30,7 @@ return answer
 
 alert(TellNumber1())
 
-//Zadanie 2 (możliwość 2)
+// Zadanie 2 (możliwość 2)
 
 function TellNumber3 () {
     let number2 = prompt("Podaj jakis numer:", "1");
@@ -42,7 +44,7 @@ return answer
 alert(TellNumber3())
 
 
-//Zadanie 3.
+// Zadanie 3.
 
 function TellNumber4 () {
     let numberIn = prompt("Podaj jakis numer:", "1");
@@ -67,28 +69,28 @@ function TellNumber4 () {
 
 alert(TellNumber4())
 
-//Zadanie 4.
+// Zadanie 4.
 
 function saySomething(name){
     return("something " + name)
 }
 alert(saySomething("is blue"))
 
-//Zadanie 5.
+// Zadanie 5.
 
 function footballPoints(wygrane, remisy, porazki){
     return(wygrane * 3 + remisy * 2 + porazki * 0)
 }
 alert(footballPoints(10, 20, 5))
 
-//Zadanie 6.
+// Zadanie 6.
 
 function animals(kurczak, krowa, swinia){
     return(kurczak * 2 + krowa * 4 + swinia * 4)
 }
 alert(animals(13, 3, 5))
 
-//Zadanie 7.
+// Zadanie 7.
 
 function factorial(n)
 {
@@ -133,3 +135,16 @@ function phLevel() {
 }
 
 alert(phLevel())
+
+//// ZJAZD 2. ////
+
+// Zadanie 1.
+
+const cubeNumbers = [4,5,6]
+
+function cubenum(cube) {
+    cubesum = Math.pow(cube[0], 3) + Math.pow(cube[1], 3) + Math.pow(cube[2], 3);
+    return(cubesum)
+}
+
+console.log(cubenum(cubeNumbers))
