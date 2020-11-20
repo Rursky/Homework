@@ -3,7 +3,7 @@
 // Zadanie 1
 
 function TellNumber () {
-    let number1 = prompt("Podaj jakis numer:", "1");
+    const number1 = prompt("Podaj jakis numer:", "1");
     let answer;
     if (number1 % 2 == 0)
         answer = "Jest parzysta"
@@ -17,7 +17,7 @@ alert(TellNumber())
 // Zadanie 2 (możliwość 1)
 
 function TellNumber1 () {
-    let number2 = prompt("Podaj jakis numer:", "1");
+    const number2 = prompt("Podaj jakis numer:", "1");
     let answer;
     if (number2>=-35 && number2<2)
         answer = "Jest w przedziale"
@@ -33,7 +33,7 @@ alert(TellNumber1())
 // Zadanie 2 (możliwość 2)
 
 function TellNumber3 () {
-    let number2 = prompt("Podaj jakis numer:", "1");
+    const number2 = prompt("Podaj jakis numer:", "1");
     let answer;
     if ((number2>=-35 && number2<2) || (number2>11 && number2<=27))
         answer = "Jest w przedziale"
@@ -47,8 +47,8 @@ alert(TellNumber3())
 // Zadanie 3.
 
 function TellNumber4 () {
-    let numberIn = prompt("Podaj jakis numer:", "1");
-    let number4 = parseInt(numberIn)
+    const numberIn = prompt("Podaj jakis numer:", "1");
+    const number4 = parseInt(numberIn)
     let answer;
     switch (number4) {
         case 1:
@@ -114,8 +114,8 @@ console.log(inkLevels({"cyan" : 11, "magneta" : 12, "yellow" : 10}))
 // Zadanie 9.
 
 function phLevel() {
-    let number5 = prompt("Podaj poziom PH 0-14", "0");
-    let number6 = parseInt(number5);
+    const number5 = prompt("Podaj poziom PH 0-14", "0");
+    const number6 = parseInt(number5);
     let answer;
     switch (true) {
         case (number6 >= 0 && number6 <= 6):
