@@ -179,10 +179,16 @@ console.log(societyName(societyNames))
 
 const numbersTab = [-1,2,3,4,-10,5,6,7,80,9]
 const tab2 = []
-function minMax(numTab){
+minMaxTabNum = (numTab) => {
     tab2.push(Math.min(...numTab))
     tab2.push(Math.max(...numTab))
-    return tab2
-    
+    return tab2;
 }
+// function minMax(numTab){
+//     tab2.push(Math.min(...numTab))
+//     tab2.push(Math.max(...numTab))
+//     return tab2
+    
+// }
 console.log(minMax(numbersTab))
+
