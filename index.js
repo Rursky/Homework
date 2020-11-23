@@ -153,12 +153,18 @@ alert(phLevel())
 
 const cubeNumbers = [2,100,5]
 let a = 0
-function sumOfCubes(cube){
+cubeNum1 = (cube) => {
     for (let i=0; i<cube.length; i++){
         a = a + Math.pow(cube[i], 3)
     }
     return a
 }
+// function sumOfCubes(cube){
+//     for (let i=0; i<cube.length; i++){
+//         a = a + Math.pow(cube[i], 3)
+//     }
+//     return a
+// }
 
 console.log(sumOfCubes(cubeNumbers))
 
@@ -166,12 +172,18 @@ console.log(sumOfCubes(cubeNumbers))
 
 const societyNames = ["Natalia", "Iwona", "Celina", "Ewelina"]
 const tab1 = []
-function societyName(names) {
+firstLetter = (names) => {
     for (let i=0; i<names.length; i++){
         tab1.push(names[i][0])
     }
     return tab1.sort()
 }
+// function societyName(names) {
+//     for (let i=0; i<names.length; i++){
+//         tab1.push(names[i][0])
+//     }
+//     return tab1.sort()
+// }
 
 console.log(societyName(societyNames))
 
